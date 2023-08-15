@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rsm-sphere {
+  fill: transparent;
+  stroke: #000;
+  stroke-width: 0.5px;
+}
+
+.rsm-graticule {
+  stroke: #ddd;
+}
+
+.rsm-geography {
+  fill: #000;
+  stroke: #fff;
+  stroke-width: 0.2px;
+  outline: none;
+}
+
+.rsm-geography:hover {
+  fill: #333;
+}
+
+.discovered {
+  fill: #f33;
+}
+
+.discovered:hover {
+  fill: #f55;
+}
+
+.found-label {
+  color: #f33;
+}
+
+.chart-container {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+}
+
+.guess-input {
+  border: 1px solid black;
+}
